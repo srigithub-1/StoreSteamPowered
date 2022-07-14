@@ -10,7 +10,7 @@ ${URL}          https://store.steampowered.com/
 Begin Web Test
     Open Browser    ${URL}      ${BROWSER}
     Maximize Browser Window
-    Sleep    2s
+    Sleep    5s
 
 End Web Test
     Close Browser
