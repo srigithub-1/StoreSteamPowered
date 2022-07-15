@@ -9,8 +9,8 @@ ${URL}          https://store.steampowered.com/
 *** Keywords ***
 Begin Web Test
     Open Browser    ${URL}      ${BROWSER}
-    #Set Window Size    1920    1024
-    Maximize Browser Window
+    Set Window Size    1920    1096
+    #Maximize Browser Window
     Sleep    5s
 
 End Web Test
