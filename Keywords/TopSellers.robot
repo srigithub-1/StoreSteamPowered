@@ -82,7 +82,7 @@ Game count and details should be captured and exported successfully
         Save Excel Document    filename=GameDetails.xlsx
     END
     
-    IF  ${${GameCategory}} == Free to Play
+    IF  ${GameCategory} == Free to Play
 
         FOR    ${l}    IN RANGE    1    ${GC}
         # Write to excel document
