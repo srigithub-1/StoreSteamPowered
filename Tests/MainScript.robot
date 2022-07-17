@@ -15,10 +15,16 @@ ${GameName}
 
 *** Test Cases ***
 
-TC01_Free to Play Games Category
+TC01_Free to Play Games
     When I Open the Home Page and the page is displayed successfully
     Then Top Sellers link should be visible on the left panel in the page
     And User is able to search Free to Play games
+    Then Game count and details should be captured and exported successfully
+
+TC02_On Sale Games
+    When I Open the Home Page and the page is displayed successfully
+    Then Top Sellers link should be visible on the left panel in the page
+    And User is able to search On Sale games
     Then Game count and details should be captured and exported successfully
 
 
