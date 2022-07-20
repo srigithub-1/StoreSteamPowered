@@ -4,6 +4,7 @@ Library         SeleniumLibrary
 Library         Collections
 Library         ExcelLibrary
 Library         OperatingSystem
+Library         ReadExcelInput.py
 
 *** Variables ***
 ${i}=   Set Variable    1
@@ -74,7 +75,7 @@ Game count and details should be captured and exported successfully
 #        Log To Console   ${GamePrice.__getitem__(${m-1})}
 #    END
 
-
+    List PrintElements    names
 
 #    FOR    ${k}    IN RANGE    1    ${GC}
 #        # Write to excel document
